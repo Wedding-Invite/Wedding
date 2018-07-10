@@ -411,7 +411,7 @@ $(document).ready(function() {
 function sendConfirmation(obj){
 	
 	var formData = "&name="+encodeURIComponent($('#name').val())+"&email="+encodeURIComponent($('#email').val())+"&guest="+encodeURIComponent($('#guest option:selected').val())+"&events="+encodeURIComponent($('#events option:selected').val())+"&toaddress="+encodeURIComponent($('#toaddress').val())+"&message="+encodeURIComponent($('#message').val());
-	alert(formData);
+	//alert(formData);
 	var url = "https://script.google.com/macros/s/AKfycbwDf64LLT-LYml0cP3UUPlK47sQdaoHKPm42yV6zkSrHNemJIk/exec?callback=?";
 	
 	var request = jQuery.ajax({
